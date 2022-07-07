@@ -37,14 +37,14 @@ function get_plain_text(cipher) {
 }
 
 function change_cipher() {
-	console.log("onchange Encountered");
+	// console.log("onchange Encountered");
 	let textarea = document.getElementById("plain");
 
 	document.getElementById("cipher").innerHTML = get_cipher_text(textarea.value);
 }
 
 function change_plain() {
-	console.log("onchange Encountered");
+	// console.log("onchange Encountered");
 	let textarea = document.getElementById("cypher_text");
 
 	document.getElementById("plain_text").innerHTML = get_plain_text(textarea.value);
