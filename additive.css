@@ -6,6 +6,9 @@
     text-decoration: none;
 }
 
+body{
+    background: url('https://source.unsplash.com/1600x900/?cosmos,cosmos');
+}
 body > div{
     display: flex;
     flex-direction: column;
@@ -35,7 +38,11 @@ a{
     background-color: aquamarine;
 }
 
-
+.output_value{
+    background: white;
+    padding: 10px;
+    margin: 20px 0;
+}
 
 @media screen and (max-width:600px) {
     textarea        {
